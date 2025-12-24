@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QUANTUM V.C.F</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+
+  <h1>QUANTUM V.C.F</h1>
+  <p class="sub">New Drop • Clean • Secure</p>
+
+  <div class="stats">
+    <div><span id="registered">0</span><br>Registered</div>
+    <div><span id="remaining">1000</span><br>Remaining</div>
+    <div><span>1000</span><br>Target</div>
+  </div>
+
+  <div class="circle">
+    <span id="percent">0%</span>
+  </div>
+
+  <input id="name" placeholder="Full name">
+  <input id="phone" placeholder="Phone (any country)">
+
+  <button class="submit" id="submitBtn">Submit</button>
+  <button class="admin" id="adminBtn">Contact Admin</button>
+  <button class="group" id="groupBtn">Join Our Group</button>
+
+  <div id="msg"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
