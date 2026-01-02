@@ -12,7 +12,7 @@ const db = firebase.firestore();
 
 const TARGET = 1000;
 const GROUP = "https://t.me/quantumbrewvcf";
-const ADMIN = "@prince101g";
+const ADMIN = "t.me/prince101g";
 
 const regEl = document.getElementById("registered");
 const remEl = document.getElementById("remaining");
